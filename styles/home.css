@@ -1,0 +1,325 @@
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.616);
+    font-family: cursive ;
+}.body{
+    display: flex;
+    height: 100%;
+    width: 100;
+    background-color: rgba(0, 0, 0, 0.965);
+    height: fit-content;
+}
+.nav{
+    border-right: 1px solid ;
+    height: 100vh;
+    width: 800px;
+    min-width: 250px;
+    position: sticky;
+    top: 0px;
+}
+.nav .box{
+    margin-left: 25%;
+}
+.nav .box a{
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    align-items: center;
+    text-decoration: none;
+}
+.nav .box i{
+    font-size: x-large;
+}
+.nav .box button{
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 20px;
+    background-color: rgb(0, 140, 255);
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav .box button:hover{
+    background-color: skyblue;
+    color: whitesmoke;
+}
+.content{
+    border-right: 1px solid;
+    /* width: 500px; */
+}
+.content .bi-twitter-x{
+    display: none;
+}
+.content #tinz{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: bold;  
+}
+.content p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.content .word{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    border-bottom: 1px solid;
+}
+.content .word p{
+    color: whitesmoke;
+    font-weight: normal;
+    padding: 10px;
+}
+.content2{
+    border-bottom: 1px solid;
+    height: 110px;
+}
+.content2 .icons{
+    display: flex;
+    gap: 200px;
+    padding-bottom: 10px;
+
+}
+.content2 .icons .bi{
+    display: flex;
+}
+.content2 .icons a{
+    margin-left: 100px;
+}
+.content2 .i{
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: rgba(245, 245, 245, 0.5);
+    display: flex;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.content2 .icons i{
+    color: rgb(0, 195, 255);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.content2 .i p{
+    color: rgba(245, 245, 245, 0.5);
+    margin-top: 10px;
+}
+.content2 button{
+    margin-top: 15px;
+    margin-left: 90px;   
+    border: none;
+    padding: 8px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgba(0, 140, 255, 0.452);
+    font-size: 16px;
+    font-weight: bold;
+}
+.content3{
+    display: flex;
+    border-bottom: 1px solid;
+    background-color: rgba(22, 22, 22, 0.719);
+}
+.content3 img{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.content3 p{
+    font-size: small;
+    line-height: 20px;
+    text-align: left;
+}
+.content .shii {
+    align-items: center;
+    display: flex;
+    margin: 10px 0px;
+    gap: 50px;
+}
+.content4{
+    display: flex;
+    border-bottom: 1px solid;
+}
+.content4 img{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.content4 p{
+    font-size: small;
+    line-height: 20px;
+    text-align: left;
+}
+.content4 .text .i i{
+    color: rgba(245, 245, 245, 0.411) ;
+}
+.side-panel{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.side-panel .search_container{
+    background-color: rgba(85, 85, 85, 0.411);
+    margin: 20px 20px;
+    width: 320px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+.side-panel .search_container input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding-left: 5px;
+}
+.side-panel .premium{
+    background-color: rgba(85, 85, 85, 0.411);
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+.side-panel .premium button{
+    margin-top: 40px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(0, 140, 255);
+    font-size: 16px;
+    font-weight: bold;    
+}
+.side-panel .trends{
+    background-color: rgba(85, 85, 85, 0.411);
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 20px;        
+}
+.contents{
+    display: flex;
+    border: 1px solid;
+    border-top: none;
+}
+.contents .pic{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.contents p{
+    font-size: small;
+    line-height: 20px;
+    text-align: left;
+}
+.contents .image{
+    margin-top: 20px ;
+    width: 70%;
+    object-fit: cover;
+    height: 400px;
+    border-radius: 20px;
+}
+.contents a{
+    color: blue;
+}
+@media screen and (max-width:1000px) {
+    .nav{
+        display: none;
+    }
+    .content #tinz{
+        display: none;
+    }
+    .content .word{
+        display: none;
+    }
+    .side-panel{
+        display: none;
+    }
+    .content2 .icons{
+        display: none;
+    }
+    .content{
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+    .content .text{
+        align-items: center; 
+        text-align: center;
+        justify-content: center;
+    }
+    .content .shii{
+        align-items: center;
+        margin: 10px 0px;
+        display: flex;
+        gap: 50px;   
+    }
+    .content3{
+        background-color: rgba(10, 10, 10, 0.965) ;
+    }
+    .contents .image{
+        height: 400px;
+        width: 90%;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:540px){
+    .content{
+        height: 100%;
+        overflow: hidden;
+    }
+    .content .shii{
+        gap: 20px;
+    }
+    .content3 img{
+        display: none;
+    }
+    .content4 img{
+        display: none;
+    }
+    .contents .pic{
+        display: none;
+    }
+    .contents .image{
+        height: 200px;
+    }
+    .content .bi-twitter-x{
+        display: block;
+        margin-top: 5px;
+        margin-left:5px;
+        font-size: xx-large;
+    }
+}
+@media screen and (max-width:414px){
+    .content{
+        height: 100vh;
+        overflow: hidden;
+    }
+    .content .shii{
+        gap: 15px;
+    }
+}
+@media screen and (max-width:375px){
+    .content{
+        height: 100%;
+        overflow: hidden;
+    }
+}
